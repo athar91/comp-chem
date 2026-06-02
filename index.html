@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="canonical" href="https://comp-chem.in/">
 <head>
+<link rel="canonical" href="https://comp-chem.in/">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C9PGQCKJCB"></script>
 <script>
@@ -699,18 +699,11 @@
   gap: 1rem;
 }
 
-  .gallery-grid figure {
+.gallery-grid figure {
   margin: 0;
 }
 
-.gallery-grid figcaption {
-  text-align: center;
-  margin-top: 0.55rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-  font-weight: 500;
-  line-height: 1.4;
-}
+.gallery-grid img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -720,10 +713,20 @@
   box-shadow: var(--shadow-soft);
   transition: transform 0.25s ease;
   cursor: pointer;
+  display: block;
 }
 
 .gallery-grid img:hover {
   transform: scale(1.02);
+}
+
+.gallery-grid figcaption {
+  text-align: center;
+  margin-top: 0.55rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 500;
+  line-height: 1.4;
 }
     @media (max-width: 1080px) {
       .gallery-grid {
@@ -1657,7 +1660,7 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="section-kicker">14 | Gallery</div>
+        <div class="section-kicker">13 | Gallery</div>
         <h2 class="section-title">Photo Gallery</h2>
       </div>
       <p class="section-text">
@@ -1744,7 +1747,7 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="section-kicker">13 | Contact</div>
+            <div class="section-kicker">14 | Contact</div>
             <h2 class="section-title">Get in touch.</h2>
           </div>
           <p class="section-text">For collaborations, teaching, supervision and computational chemistry or biophysics inquiries.</p>
